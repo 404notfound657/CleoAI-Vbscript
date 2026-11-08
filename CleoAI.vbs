@@ -22,7 +22,7 @@ ElseIf X3 = vbNo Then
 Output = Output +30
 End If
 
-X4 = MsgBox("Are you comfortable with going outside?", vbYesNo + vbQuestion, "Question 3")
+X4 = MsgBox("Are you comfortable with going outside?", vbYesNo + vbQuestion, "Question 4")
 If X4 = vbYes Then
 Output = Output + 20
 ElseIf X4 = vbNo Then
